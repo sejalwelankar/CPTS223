@@ -1,12 +1,8 @@
 name: CI
 
-on:
-  push:
-    branches: [ main| PA1 ]
+on: [push] 
 
-  workflow_dispatch:
-
-  jobs:
+jobs:
   
   build:
     runs-on: ubuntu-latest
@@ -17,5 +13,5 @@ on:
       - name: Build Code
         working-directory: ${{github.workspace}}  # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
         shell: bash
-        run: (mkdir build;cmake -B build -S .;cmake --build build) # NO NEED TO CHANGE HERE
+        run: (mkdir build;cmake -S .;cmake --build ) # NO NEED TO CHANGE HERE
     

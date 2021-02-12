@@ -13,5 +13,5 @@ jobs:
       - name: Build Code
         working-directory: ${{github.workspace}}  # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
         shell: bash
-        run: (mkdir build;cmake -S .;cmake --build ) # NO NEED TO CHANGE HERE
+        run: (mkdir build;cmake -S .;cmake --build .) # NO NEED TO CHANGE HERE
     

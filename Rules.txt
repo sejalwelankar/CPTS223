@@ -1,0 +1,5 @@
+Welcome!
+This game tests your knowledge of Linux Commands.
+The rules are simple - you have to choose the correct description of the given command.
+If your answer is correct you get +2 points. If your answer is wrong you lose a point.
+Enjoy!

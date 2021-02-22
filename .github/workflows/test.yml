@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Build Code
-        working-directory: ${{github.workspace}}  # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
+        working-directory: ${{github.workspace/MA1}}  # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
         shell: bash
         run: (mkdir build;cmake -S .;cmake --build .) # NO NEED TO CHANGE HERE
     

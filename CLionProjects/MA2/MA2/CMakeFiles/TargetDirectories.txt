@@ -1,0 +1,3 @@
+/home/seal/CLionProjects/MA2submission/MA2/CMakeFiles/rebuild_cache.dir
+/home/seal/CLionProjects/MA2submission/MA2/CMakeFiles/CPTS_223_MA2.dir
+/home/seal/CLionProjects/MA2submission/MA2/CMakeFiles/edit_cache.dir

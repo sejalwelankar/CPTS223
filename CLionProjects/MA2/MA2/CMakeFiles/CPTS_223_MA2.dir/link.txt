@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g CMakeFiles/CPTS_223_MA2.dir/main.cpp.o -o CPTS_223_MA2 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/seal/CLionProjects/MA2submission/MA2/BST.h
+iostream
+-
+limits
+-
+
+/home/seal/CLionProjects/MA2submission/MA2/main.cpp
+BST.h
+/home/seal/CLionProjects/MA2submission/MA2/BST.h
+

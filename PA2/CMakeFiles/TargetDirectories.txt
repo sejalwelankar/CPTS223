@@ -1,3 +1,0 @@
-/home/seal/CLionProjects/PA2/CMakeFiles/rebuild_cache.dir
-/home/seal/CLionProjects/PA2/CMakeFiles/PA2.dir
-/home/seal/CLionProjects/PA2/CMakeFiles/edit_cache.dir

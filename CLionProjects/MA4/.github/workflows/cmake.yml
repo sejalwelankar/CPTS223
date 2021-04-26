@@ -1,0 +1,18 @@
+name: CMake compilation # NO NEED TO CHANGE HERE
+
+on: [push] # NO NEED TO CHANGE HERE
+
+env:
+  BUILD_TYPE: Release # NO NEED TO CHANGE HERE
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04 # NO NEED TO CHANGE HERE
+
+    steps:
+    - uses: actions/checkout@v2 # NO NEED TO CHANGE HERE
+    - # Choose the working directory
+      working-directory: ${{github.workspace}}/MA4 # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
+      shell: bash
+      # This step will execute the build. 1. Create a build directory. 2. Config cmake. 3. Build the project using cmake
+      run: (mkdir build;cmake -B build -S .;cmake --build build) # NO NEED TO CHANGE HERE
